@@ -5,6 +5,10 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sierra-library/sierra?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![npm version](https://badge.fury.io/js/sierra-library.svg)](https://badge.fury.io/js/sierra-library) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+#### Changes from upstream
+removed styling rules that are either not implemented or not relevant to the game engine like -moz and -ms specific styling, and media query breakpoints.
+since s&box has a limited scss impl. it's easiest to work off the compiled scss for a lof of these so this is a modification of the compiled css.
+due to 2026 being filled with rounded corner buttons in so much ai slop this has square buttons.
 
 #### Online demo
 

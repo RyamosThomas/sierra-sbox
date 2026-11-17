@@ -8,3 +8,4 @@ lib/
 .composer.phar
 
 *.sublime-gulp.cache
+/.vs
